@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morse Code Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Morse Code Converter</h1>
+
+  <div class="container">
+    <textarea id="input" placeholder="Enter English or Morse Code..."></textarea>
+
+    <div class="buttons">
+      <button onclick="convertToMorse()">🔁 To Morse</button>
+      <button onclick="convertToEnglish()">🔁 To English</button>
+    </div>
+
+    <textarea id="output" placeholder="Converted output..." readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
